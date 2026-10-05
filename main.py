@@ -1,9 +1,4 @@
-#Age=input("How old are you ?\n")
-#int_Age=int(Age)
-#born_year=(2026-int_Age)
-#int_born_year=str(born_year)
-#print("You were born in the year: "+int_born_year)
-
-
-Age=input("How old are you ?\n")
-print(f"You were born in the year: {2026-int(Age)}")
+str_total_seconds=input("please type the number of seconds : \n")
+int_total_seconds=int(str_total_seconds)
+int_Tminutes= int_total_seconds//60
+print(f" this corse is : {int_Tminutes//60} hours and {int_Tminutes%60} minutes and {int_total_seconds%60} seconds long")
